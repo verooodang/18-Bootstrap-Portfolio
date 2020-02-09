@@ -6,41 +6,50 @@ body {
     border-radius: 50%;
 }
 
-h1, h4 {
-    font-family: 'Overlock', cursive;
-    font-size: 40px;
-    color: rgb(8, 80, 109);
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: rgb(236, 250, 252);
 }
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: rgb(2, 2, 37);
+}
+
 
 .title {
     font-size: 60px;
-    font-family: 'Fascinate Inline', cursive;
-    color: rgb(10, 10, 75);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    color: rgb(236, 250, 252);
+}
+
+.name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
 }
 
 p {
-    font-family: 'Overlock', cursive;
+    font-family: 'Roboto Slab', serif;
     font-size: 20px;
-    color: rgb(8, 80, 109);
+    color: rgb(236, 250, 252);
 }
 
 
 .hero1 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-image: url(../images/water.jpg);
+    justify-content: flex-end;
+    background-image: url(../images/cat4.jpg);
+    background-size: 90%;
 }
-.jumboLeft {
-    width: 70%;
+.jumboRight {
+    width: 60%;
     padding: 0px 0px 0px 5%; 
     
-}
-
-.jumboRight{
-    width: 50%;
-    margin-left: 20px;
-
+    
 }
 
 #img1 {
@@ -52,13 +61,13 @@ p {
 }
 
 
-
 h3 {
     display: flex;
     justify-content: center;
     font-size: 60px;
-    font-family: 'Fascinate Inline', cursive;
-    color: rgb(10, 10, 75);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900 !important;
+    color: rgb(2, 2, 37);
 }
 
 #pic1 {
@@ -92,7 +101,10 @@ h3 {
 
 .card {
     margin-left: 15px;
-    margin-right: 15px;
+}
+
+.card-body {
+    color: blue;
 }
 
 .hero2 {
@@ -100,21 +112,26 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(../images/blue3.png);
+    background: url(../images/lightblue.png);
     background-color: transparent !important;
     margin-bottom: 0 !important;
 }
 
 .hero2 h5 {
     font-size: 40px;
-    font-family: 'Fascinate Inline', cursive;
-    color: rgb(10, 10, 75);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    color: rgb(2, 2, 37);
 }
 
 .hero2 p {
-    font-family: 'Overlock', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     color: rgb(8, 80, 109);
+}
+
+.my-4 {
+    color: blue;
 }
 
 .lead p {
@@ -148,6 +165,7 @@ h3 {
 
 .nav-item {
     margin: 0px 15px;
+    font-family: 'Titillium Web', sans-serif;
   }
 
 .navbar-brand {
@@ -157,7 +175,7 @@ h3 {
 .customNav {
     position: fixed;
     width: 100%;
-    background: url(../images/navy.jpg);
+    background: url(../images/black.png);
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
@@ -165,6 +183,7 @@ h3 {
 
 .customNav a {
     color: white !important;
+    font-family: 'Roboto Slab', serif;
   }
 
 .socials {
@@ -184,7 +203,10 @@ h3 {
 }
 
 footer {
-    background: url(../images/navy.jpg);
+    background: url(../images/black.png);
     background-color: transparent !important;
 }
 
+.btn {
+    font-family: 'Titillium Web', sans-serif;
+}
